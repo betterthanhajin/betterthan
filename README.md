@@ -1,2 +1,6 @@
 # betterthan
-betterthan project 
+betterthan project
+next.js 
+React.js
+three.js
+docker
