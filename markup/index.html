@@ -7,16 +7,30 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="hexagonWrap">
-        <div id="hexagon"></div>
+    <div>
+        <svg width="600" height="574" viewbox="0 0 200 173.20508075688772">
+            <path
+                stroke="#111"
+                fill="none"
+                d="M0 86.60254037844386L50 0L150 0L200 86.60254037844386L150 173.20508075688772L50 173.20508075688772Z">
+            </path>
+        </svg>
+
+        <svg width="600" height="574" viewbox="0 0 200 173.20508075688772">
+            <path
+                stroke="#111"
+                fill="none"
+                d="M0 86.60254037844386L50 0L150 0L200 86.60254037844386L150 173.20508075688772L50 173.20508075688772Z">
+            </path>
+        </svg>
     </div>
-    <div id="test"></div>
 </body>
 </html>
 <style>
 
 body {
-    margin:10% auto;
+margin: 0;
+padding: 0;
 }
 
 #hexagonWrap {
@@ -25,8 +39,8 @@ body {
     align-items: center;
 }
 #hexagon {
-    width: 100px;
-    height: 55px;
+    width: 200px;
+    height: 138px;
     background: orange;
     position: relative;
     transform: rotateZ(269deg);
@@ -35,25 +49,25 @@ body {
 #hexagon:before {
     content: "";
     position: absolute;
-    top: -25px;
+    top: -50px;
     left: 0;
     width: 0;
     height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 25px solid orange;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid orange;
 }
 
 #hexagon:after {
     content: "";
     position: absolute;
-    bottom: -25px;
+    bottom: -50px;
     left: 0;
     width: 0;
     height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 25px solid orange;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 50px solid orange;
 }
 
 #test {
