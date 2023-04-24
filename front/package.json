@@ -1,0 +1,21 @@
+{
+  "name": "react-betterthan-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build"
+  },
+  "author": "hajiny",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
