@@ -7,7 +7,7 @@ export default function ProjectsSection() {
         <div className="grid grid-cols-2 gap-8">
           <div className="project-card p-6 bg-gray-100 rounded-lg">
             <h3 className="text-2xl font-bold mb-4">B6</h3>
-            <h4 className="text-xl mb-2">FUJITSU 社</h4>
+            <h4 className="text-xl mb-2"></h4>
             <p className="text-gray-600">2022.01 - 2022.12</p>
             <div className="mt-4 space-y-2">{/* Add project details */}</div>
           </div>
