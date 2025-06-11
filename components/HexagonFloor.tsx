@@ -15,11 +15,13 @@ export default function HexagonFloor({ floor, bgColor }: HexagonFloorProps) {
             width="400"
             height="400"
             viewBox="0 0 400 400"
-            className="absolute"
+            transform="rotate(90, 100, 100)"
+            className=""
           >
             {/* Hexagon Border */}
             <polygon
               points="200,20 350,110 350,290 200,380 50,290 50,110"
+              transform="rotate(180, 200, 200)"
               fill={bgColor}
               stroke="#333"
               strokeWidth="3"
